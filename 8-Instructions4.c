@@ -4,4 +4,4 @@
 int main() {
     printf("%d", 18%7);
     return 0;
-}
+} 

@@ -7,4 +7,4 @@ int main() {
 
     printf("sum of all numbers is: %d", a + b + c + d);
     return 0;
-}
+} 

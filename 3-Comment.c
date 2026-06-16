@@ -12,6 +12,6 @@ int main() {
     printf("Comment consists of 2 types: Single Line and Multiple Line \n");
     return 0;
     
-}
+} 
 
 

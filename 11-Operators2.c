@@ -12,4 +12,4 @@ int main() {
     printf("%d \n", !(7 == 7));
     //! (NOT)
     return 0; 
-}
+} 

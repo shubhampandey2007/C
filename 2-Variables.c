@@ -6,4 +6,4 @@ int main() {
     char star = '*';
     return 0;
     
-}
+} 

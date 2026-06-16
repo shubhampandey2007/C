@@ -8,4 +8,4 @@ int main() {
     printf("the area of the square is: %d", side * side);
     return 0;
 
-}
+} 

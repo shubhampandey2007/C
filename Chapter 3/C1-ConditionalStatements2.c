@@ -1,5 +1,5 @@
 #include<stdio.h>
-// switch
+// esle if
 int main() {
     int age;
     printf("Enter an age: ");

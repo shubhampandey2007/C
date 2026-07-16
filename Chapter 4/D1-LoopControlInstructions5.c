@@ -1,4 +1,5 @@
 #include<stdio.h>
+// While Loop
 int main(){
     int i=1;
     while(i<=5){

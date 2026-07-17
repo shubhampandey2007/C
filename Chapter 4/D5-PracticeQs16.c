@@ -4,10 +4,13 @@ int main(){
     int n;
     printf("enter a number: ");
     scanf("%d", &n);
-    int product;
+    // int product;
+    // for(int i=1; i<=10; i++){
+    //     product=n*i;
+    //     printf("%d \n", product);
+    // }
     for(int i=1; i<=10; i++){
-        product=n*i;
-        printf("%d \n", product);
+        printf("%d \n", n*i);
     }
     return 0;
 }

@@ -2,17 +2,25 @@
 #include<math.h>
 int main(){
     int n;
-    printf("enter an odd number: ");
-    scanf("%d", &n);
-    for(int i=1; i<=100; i++){
+    // printf("enter an odd number: ");
+    // scanf("%d", &n);
+    // for(int i=1; i<=100; i++){
+    //     if(n%2!=0){
+    //         printf("VALID");
+    //         break;
+    //     }else{
+    //         printf("INVALID \n");
+    //         printf("enter again: ");
+    //         scanf("%d", &n);
+    //     }
+    do{
+        printf("enter a number: ")
+        scanf("%d", &n);
+
         if(n%2!=0){
-            printf("VALID");
             break;
-        }else{
-            printf("INVALID \n");
-            printf("enter again: ");
-            scanf("%d", &n);
         }
-    }
+    }while (1);
+    printf("Thank You");
     return 0;
 }

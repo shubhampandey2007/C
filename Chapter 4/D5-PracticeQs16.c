@@ -1,15 +1,13 @@
 #include<stdio.h>
+// Print the table of the number input by the user.
 int main(){
-    // Q. Print the sum of first n Natural numbers. (Also print them in reverse)
-
     int n;
     printf("enter a number: ");
     scanf("%d", &n);
-    int sum= 0;
-    for (int i=1, j=n; i<=n && j>=1; i++, j--){
-        sum= sum+ i;
-        printf("%d \n", j);
+    int product;
+    for(int i=1; i<=10; i++){
+        product=n*i;
+        printf("%d \n", product);
     }
-    printf("sum is: %d", sum);
     return 0;
 }

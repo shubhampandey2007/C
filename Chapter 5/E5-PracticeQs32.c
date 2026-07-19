@@ -1,17 +1,19 @@
 #include<stdio.h>
-// Q. Print "Hello World" 5 times.
-
-void printHW(int count);
-
+// Q. Sum of the first n natural numbers.
+int sum(int n);
 int main(){
-    printHW(5);
+    int n;
+    printf("enter the number n: ");
+    scanf("%d", &n);
+    printf("sum is %d\n", sum(n));
     return 0;
 }
-
-void printHW(int count){
-    if (count== 0){
-        return;
+// recursive function
+int sum(int n){
+    if (n==1){
+        return 1;
     }
-    printf("Hello World\n");
-    printHW(count-1);
+    int sumNm1= sum(n-1);
+    int sumN= sumNm1+n;
+    return sumN;
 }

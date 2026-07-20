@@ -1,16 +1,15 @@
 #include<stdio.h>
-int sum(int n);
+int sum(int a, int b);
 int main(){
-    int n;
-    printf("enter a number n: ");
-    scanf("%d", &n);
-    printf("sum is: %d\n", sum(n));
+    int a, b;
+    printf("enter a: ");
+    scanf("%d", &a);
+    printf("enter b: ");
+    scanf("%d", &b);
+
+    printf("sum is: %d \n", sum(a,b));
     return 0;
 }
-int sum(int n){
-    if(n==1){
-        return 1;
-    }
-    sumN= sum(n-1)+n;
-    return sumN;
+int sum(int x, int y){
+    return x+y;
 }

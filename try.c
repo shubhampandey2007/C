@@ -1,7 +1,16 @@
 #include<stdio.h>
+int sum(int n);
 int main(){
-        for (int i= 1; i<= 10; i++){
-            printf("Hello World \n");
-        }
+    int n;
+    printf("enter a number n: ");
+    scanf("%d", &n);
+    printf("sum is: %d\n", sum(n));
     return 0;
+}
+int sum(int n){
+    if(n==1){
+        return 1;
+    }
+    sumN= sum(n-1)+n;
+    return sumN;
 }

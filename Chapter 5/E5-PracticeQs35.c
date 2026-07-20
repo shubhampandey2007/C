@@ -1,5 +1,6 @@
 #include<stdio.h>
-int calcPercentage(int sci, int math, int sans);
+// Q. Write a function to calculate the percentage of a student from marks in science, maths and sanskrit.
+int calcPercentage(int x, int y, int z);
 int main(){
     int sci, math, sans;
     printf("enter the marks of science: ");
@@ -11,6 +12,6 @@ int main(){
     printf("total percentage: %d", calcPercentage(sci, math, sans));
     return 0;
 }
-int calcPercentage(int sci, int math, int sans){
-    return (sci+math+sans)/3;
+int calcPercentage(int x, int y, int z){
+    return (x+y+z)/3;
 }

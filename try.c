@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main(){
-    int age=22;
-    int *ptr= &age;
-    printf("%u", ptr);
+    int marks[] = {97, 98, 99};
+    printf("%d, %d, %d", marks);
     return 0;
 }

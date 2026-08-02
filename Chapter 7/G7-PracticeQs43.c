@@ -8,7 +8,7 @@ Q. int arr[] = {1, 2, 3, 4, 5}
 int main(){
     int arr[]= {1, 2, 3, 4, 5};
     printf("%d\n", *(arr + 2));
-    // printf("%d\n", *(arr + 5));  "ERROR"
+    printf("%d\n", *(arr + 5));  //"ERROR"
 
     return 0;
 }

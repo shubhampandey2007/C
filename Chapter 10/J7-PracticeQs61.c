@@ -1,4 +1,5 @@
 #include<stdio.h>
+//Q. Make a program to read 5 integers from a file.
 int main(){
     FILE *fptr;
     fptr= fopen("hi.txt", "r");

@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+//Q. Enter address (house no., block, city, state) of 5 people.
 typedef struct Address{
     int houseNo;
     char Block;

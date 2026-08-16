@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+//Q. Write a program to allocate memory to 5 prices.
 int main(){
     float *ptr;
     ptr= (float*)malloc(5* sizeof(float));
